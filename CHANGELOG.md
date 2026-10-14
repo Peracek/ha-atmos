@@ -2,6 +2,18 @@
 
 ## [Unreleased]
 
+### Added
+
+- `atmos.set_regime` action for holiday / absence / visit with an end, and
+  auto / summer with a week program.
+- Climate attributes `regime_end_time`, `regime_end_date`, `week_program`.
+
+### Changed
+
+- Auto / summer preset keeps the current week program instead of resetting to A.
+- Holiday / absence / visit as a plain preset now errors (it used to write an
+  empty end time).
+
 ## [2026.10.1] - 2026-10-04
 
 First stable release.
