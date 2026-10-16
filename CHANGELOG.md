@@ -10,6 +10,7 @@
 
 ### Changed
 
+- Require `py-atmos-wg1000==2026.10.2` (regime end time/date encoding).
 - Auto / summer preset keeps the current week program instead of resetting to A.
 - Holiday / absence / visit as a plain preset now errors (it used to write an
   empty end time).
